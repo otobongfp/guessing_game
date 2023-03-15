@@ -23,10 +23,10 @@ fn main() {
         };
 
         match guess.cmp(&_secret_number){
-            Ordering::Greater => println!("{guess} is bigger than the secret number, Try Again"),
-            Ordering::Less => println!("{guess} is smaller than the secret number, Try Again"),
+            Ordering::Greater => println!("{guess} is bigger than the secret number, Try Again 😥"),
+            Ordering::Less => println!("{guess} is smaller than the secret number, Try Again 😥"),
             Ordering::Equal => {
-                println!("Correct, You Got It!!!");
+                println!("Correct, You Got It!!! 😀");
                 break;
             },
         }
